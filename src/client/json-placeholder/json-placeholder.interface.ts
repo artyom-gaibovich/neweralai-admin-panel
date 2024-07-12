@@ -1,3 +1,5 @@
+import {GetCategoriesRequestInterface, GetCategoriesResponseInterface} from "./model/get-categories.ts";
+
 export interface JsonPlaceholderInterface {
-    getPosts() : Promise
+    getPosts(req : GetCategoriesRequestInterface) : Promise<GetCategoriesResponseInterface>
 }
