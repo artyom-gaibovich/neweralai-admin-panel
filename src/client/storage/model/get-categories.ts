@@ -1,7 +1,7 @@
 import {LinkInterface} from "../../../model/link.interface.ts";
 
-export interface GetCategoriesRequestInterface {
-    url : LinkInterface
+export interface GetCategoriesRequestInterface extends LinkInterface{
+
 }
 
 export interface GetCategoriesResponseInterface {
